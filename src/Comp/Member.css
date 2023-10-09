@@ -1,0 +1,285 @@
+.memPic{
+    width: 85vw;
+    height: 600px;
+    rotate:inherit ;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    animation: transitionIn 0.75s;
+}
+.meminf-cointainer{
+    animation: SectransitionIn 5s;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    left: 0%;
+    font-family: sans-serif;
+    color: lightblue;
+    text-shadow: 2px 2px 5px blue;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+}
+.SocialAcc{
+    background-size: 100% 100%;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    box-shadow:0 0px 10px black;
+   
+}
+.phaybut{
+    background-image: url("Res/facebook-129.png");
+}
+.intagam{
+    background-image: url("Res/R.png");
+}
+.sobotifi{
+    background-image: url("Res/spot.png");
+}
+.soteam{
+    background-image: url("Res/steam.png");
+}
+.Socialacc-cointainer{
+    animation: SectransitionIn 5s;
+    list-style-type: none;
+  display: flex;
+}
+.memSocialacc{
+    top: 50px;
+    position: relative;
+    height: 100px;
+
+}
+.SocialaccList{
+    margin-left: 80px;
+}
+.AppName{
+    animation: SectransitionIn 5s;
+    top: 40px;
+    position: absolute;
+    color: white;
+    margin-left: 65px;
+    font-weight: bold;
+    font-size: 13px;
+   
+}
+.appName-container{
+    top: 25px;
+    position: relative;
+    left: 80px;
+    display: flex;
+    list-style-type: none;
+    color:burlywood ;
+    
+}
+.AppNameList{
+    animation: SectransitionIn 5s;
+    position: relative;
+    text-shadow:0px 0px 13px antiquewhite;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-left: 25px;
+    left: -35px;
+    
+}
+.memPhysical-box{
+    position: absolute;
+    width: 85vw;
+    height: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: cornflowerblue;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    top: 600px;
+}
+.memPhysContainer{
+    position: absolute;
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    left: 80%;
+    transform: translateX(-80%);
+    color: white;
+    text-shadow: 2px 2px 5px antiquewhite;
+    width: 1000px;
+    animation: transitionIn 1s;
+}
+.memPhysList{
+    margin-left: 50px;
+}
+.memIntro-box{
+    position: absolute;
+    top: 775px;
+    background-color: antiquewhite;
+    width: 85vw;
+    height: 800px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.memAvt{
+    position: absolute;
+    top: 230px;
+    background-size: 100% 75%;
+    width: 300px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.GioiThieuTit{
+    text-shadow:0px 0px 13px gray;
+}
+.introparag{
+    color: gray;
+  
+}
+.tvin4box{
+
+    position: relative;
+    top: 320px;
+}
+.mem-character-box{
+    background-color: aliceblue;
+    box-shadow:0 0px 10px black;
+    position: absolute;
+    left: 60%;
+    transform: translateX(-60%);
+    top: 230px;
+    border-radius: 10px
+    
+    
+}
+.memDetailMenu{
+    width: 750px;
+    list-style-type: none;
+    display: flex;
+    font-size: large;
+    
+   
+}
+.submit{
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: bolder;
+  color: chocolate;
+  text-shadow: 2px 2px 13px red;
+  transition: 0.3s;
+}
+.submit:hover{
+    color: orangered;
+}
+.memDetailLi{
+    margin-left: 70px;
+ 
+    
+}
+.parag-box{
+    top: 320px;
+    position: absolute;
+    left: 60%;
+    transform: translateX(-60%);
+    background-color: aliceblue;
+    width: 750px;
+    box-shadow:0 0px 10px black;
+    border-radius: 20px;
+    font-size: 20px;
+    height: 300px;
+}
+@keyframes transitionIn{
+    from {
+        opacity: 0;
+        
+    }
+    to{
+        opacity: 1;
+        
+    }
+}
+@keyframes SectransitionIn{
+    from {
+        opacity: 0;
+        
+    }
+    to{
+        opacity: 1;
+        
+    }
+}
+@media only screen and (max-width: 1000px){
+    .randomname{
+        font-size: 15px;
+    }
+    .memDetailLi{
+        margin-left: 10px;
+    }
+    .submit{
+        font-size: 12px;
+    }
+    .parag-box{
+        width: 100vw;
+        font-size: 15px;
+    }
+    .memDetailMenu{
+        width: 80vw;
+    }
+    .mem-character-box{
+        width: 100vw;
+    }
+    .memAvt{
+        display: none;
+    }
+    .memIntro-box{
+        top: 650px;
+        width: 100vw;
+    }
+    .memPhysical-box{
+        top: 450px;
+        width: 100vw;
+        
+    }
+    .memPhysContainer{
+        font-size: 10px;
+        left: 70%;
+        width: 360px;
+    }
+    .memPic{
+        width: 100vw;
+        height: 450px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .memname{
+        font-size: 25px;
+    }
+   .memSocialacc{
+       position: absolute;
+        width: 350px;
+      
+    left: -35%;
+     align-items: center;
+       top: 100px;
+   }
+   
+   
+   .meminf-cointainer{
+       top: 150px;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+   }
+}

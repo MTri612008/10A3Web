@@ -1,0 +1,79 @@
+.RvmemBox{
+    background-image: url("Res/sfsefef.jpg");
+    width: 90vw;
+    height: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    background-color: aliceblue;
+    background-size:cover ;
+    box-shadow:0 0px 20px black;
+    text-align: center;
+ 
+}
+.mem-review{
+    font-family: sans-serif;
+    font-weight: bold;
+    color:greenyellow;
+    text-shadow: 2px 2px 5px green;
+
+}
+.memlistbox{
+ 
+   width: 1200px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.mem-cointainer{
+    display: flex;
+    
+    list-style-type: none;
+
+}
+.mems{
+margin-left: 80px;
+background-color: antiquewhite;
+width: 200px;
+height: 30px;
+text-align: center;
+border-radius: 10px;
+box-shadow:0 0px 20px black;
+transition: 0.3s;
+
+}
+.mems:hover{
+    box-shadow:0 0px 20px orange;
+    color: chocolate;
+}
+.memRe {
+    text-decoration: none;
+    color: orangered;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  @media only screen and (max-width:1000px){
+    .memlistbox{
+        top: 50px;
+        width: 300px;
+    }
+    .mem-cointainer{
+        flex-direction: column;
+    }
+    .mems{
+        margin-left: 50px;
+        margin-top: 20px;
+        background-color: antiquewhite;
+        width: 100px;
+        height: 20px;
+        
+    }
+    .mem-review{
+        font-size: 25px;
+    }
+    .memRe{
+        font-size: 15px;
+    }
+  }
