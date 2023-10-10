@@ -11,11 +11,13 @@ import phuhao from "./Comp/Res/phuhao.jpg";
 import {
   BrowserRouter
 } from "react-router-dom";
+import ScrollToTop from './Comp/ScrollToTop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+    <ScrollToTop></ScrollToTop>
       <App></App>
     </BrowserRouter>
   </React.StrictMode>

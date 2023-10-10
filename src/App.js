@@ -12,6 +12,7 @@ import phuhao from "./Comp/Res/phuhao.jpg";
 function App() {
   return (
     <div>
+      
       <Routes>
         <Route path='/10A3Web' element={<HomePage></HomePage>}></Route>
         <Route path='/10A3Web/PhuHao' element={<Member MemName=" Phú Hảo" nickname="Con của ông vua trong Trạng Quỳnh" memimg={phuhao} facelink="https://www.facebook.com/" chieucao="1m95" cannang="20kg" chieudai="30cm" chisoxl="100xl" />}></Route>
