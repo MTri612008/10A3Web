@@ -53,7 +53,7 @@ Hảo(a.k.a:giọng cười quyến rũ),Khoa(a.k.a:con heo biết quay).Tóm l�
             <ReviewMem top="1400px"></ReviewMem>
             <div className='fbcmt'>
             <FacebookProvider FacebookProvider appId="660285872919937" >
-          <Comments href="http://localhost:3000/" />
+          <Comments href="https://mtri612008.github.io" />
           
         </FacebookProvider>
             </div>
