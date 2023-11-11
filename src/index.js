@@ -12,6 +12,9 @@ import {
   BrowserRouter
 } from "react-router-dom";
 import ScrollToTop from './Comp/ScrollToTop';
+import Fbcmtplug from './Comp/Fbcmtplug';
+import { FacebookProvider, Comments } from 'react-facebook';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,7 +23,11 @@ root.render(
     <ScrollToTop></ScrollToTop>
       <App></App>
     </BrowserRouter>
+    
   </React.StrictMode>
+  
+
+
 );
 
 // If you want to start measuring performance in your app, pass a function
