@@ -197,6 +197,11 @@ top: 0%;
     }
 }
 @media only screen and (max-width: 1000px){
+    .fbcmt{
+        
+        width: 380px;
+        height: 1000px;
+    }
     .sologan{
         display: none;
     }
